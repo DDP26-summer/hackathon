@@ -8,10 +8,10 @@ In addition to the standard Sudoku constraints, the solver also enforces **inequ
 
 Inequalities are optional, they may be assigned to any subset of cell borders, or to none at all. A board with no inequalities reduces to a standard Sudoku and should be fully supported. On the other hand, a board with few or no given digits but a rich set of inequalities is also valid; the inequalities alone may be sufficient to determine a unique solution.
 
-![ineq_sud](pics/ineq_sud.jpg)
+![](pics/ineq_sud.jpg)
 ## Board Input Encoding
 
-![bit_encoding](pics/bit_encoding.jpg)
+![](pics/bit_encoding.jpg)
 
 
 ### Fields
