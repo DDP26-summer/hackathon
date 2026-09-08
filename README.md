@@ -73,8 +73,8 @@ To support the inequality variant you need to update the shared library C code w
 ```bash
 tsmc65
 git clone https://github.com/DDP26-summer/hackathon
-mv my_k5_proj/sud_shared my_k5_proj/sud_shared_PRE_HKTN_BACKUP
-cp -r hackathon/my_k5_proj_ref/sw/apps/sud_shared my_k5_proj
+mv my_k5_proj/sw/apps/sud_shared my_k5_proj/sw/apps/sud_shared_PRE_HKTN_BACKUP
+cp -r hackathon/my_k5_proj_ref/sw/apps/sud_shared my_k5_proj/sw/apps
 ```
 > The third command backs up your current `sud_shared` folder before overwriting it.
 
